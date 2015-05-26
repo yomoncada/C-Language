@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int vot, vota=0, votb=0, votnul=0, gan;
+    int vot, vota=0, votb=0, votnul=0;
     char canda[20], candb[20];
     printf("Sistema electoral.\n");
     printf("\nIntroduzca el nombre del primer candidato: ");
