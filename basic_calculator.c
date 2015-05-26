@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int oper;
-    float  n1, n2;
+    double  n1, n2;
     printf("Calculadora básica.\n");
     printf("\n¿Qué operación desea efectuar?\n");
     printf("\nIntroduzca:");
@@ -17,9 +17,9 @@ int main(){
     }
     else{
         printf("\nIntroduzca el primer valor: ");
-        scanf("%f",&n1);
+        scanf("%lf",&n1);
         printf("Introduzca el segundo valor: ");
-        scanf("%f",&n2);
+        scanf("%lf",&n2);
     }
     switch(oper){
         case 1:
